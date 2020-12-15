@@ -1,0 +1,53 @@
+/* .margin{
+    background-color: red;
+} */
+#margin{
+    background-color: blue;
+    width: 200px;
+    margin-left: auto;/*chuyển chữ sang bên phải*/
+}
+.bg-red{
+    background-color: red;
+}
+.mr-20{
+    margin: 20px 0;
+}
+#text-primary{
+    color: cyan;
+}
+.text-primary{
+    color: yellow;
+}
+.font-size-primary{
+    font-size: 50px;
+}
+.margin-1{
+    background-color: red;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    /*2 cái trên để căn giữa*/
+}
+.margin-2{
+    background-color:blue;
+    margin-top: 50px;   
+    width: 200px;
+    margin: 0 auto; /* căn giữa */
+    margin-top: -30px;
+    margin-bottom: 30px;
+}
+/* nếu 2 margin sát nhau nó sẽ lấy cái to hơn */
+.text{
+    background-color: #ddd;
+    width: 500px;
+    margin: 0 auto;
+    color: tomato;
+    font-size: 30px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    white-space: nowrap; /*chỉ được viết chữ trên 1 hàng*/
+    overflow: hidden;/*dấu chữ vượt quá khung cho phép */
+    text-overflow: ellipsis; /* hiện dấu 3 chấm khi còn nội dung phía sau khi ẩn*/
+}

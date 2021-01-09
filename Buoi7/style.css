@@ -1,0 +1,53 @@
+/* .block{
+    background-color: orangered;
+    width: 100px;
+    height: 100px;
+    color: papayawhip;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 40px;
+}
+.row{
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* vượt quá 100% thì xuống hàng */
+    /* justify-content: space-between; */
+    /* height: 300px;
+    border: 5px solid red;
+} */ 
+.container{
+
+}
+.flex{
+    display: flex;
+}
+.j-end{
+    justify-content: flex-end;
+}
+.j-between{
+    justify-content: space-between;
+}
+.blue{
+    background-color: blue;
+}
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+}
+.squares .square{
+    width:200px;
+    height:200px;
+}
+.squares .rectangle{
+    width: 200px;
+    height: 280px;
+}
+.squares .s-rectangle{
+    width: 240px;
+    height: 260px;
+}
+.mrg-left{
+    margin-left: 200px;
+}

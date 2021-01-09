@@ -1,0 +1,39 @@
+.container {
+  max-width: 90%;
+  width: 1270px;
+}
+
+.list-poster {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.list-poster .poster-header img {
+  max-width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+}
+
+.list-poster .poster-item {
+  border: 2px solid red;
+  -ms-flex-preferred-size: calc(calc(100% - 20px) / 3);
+      flex-basis: calc(calc(100% - 20px) / 3);
+  max-width: calc(calc(100% - 20px) / 3);
+}
+
+.list-poster .content {
+  padding: 5px 7px;
+}
+
+.list-poster h3 {
+  text-transform: capitalize;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+/*# sourceMappingURL=style2.css.map */

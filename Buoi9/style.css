@@ -1,0 +1,25 @@
+/* .demo{
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+} */
+.block1{
+    width: 400px;
+    height: 400px;
+    border: 3px solid red;
+    position: relative;
+}
+.block1 .block2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100px;
+    height: 100px;
+    border: 3px solid blue;
+
+    margin: -50px 0 0 -50px;
+}

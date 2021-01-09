@@ -1,0 +1,115 @@
+/* span{
+    color: darkred;
+}
+p{
+    background-color: green;
+    display: inline-block; cho chu treen 1 hang
+}
+*{
+    color: greenyellow;
+    background-color: grey;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+p{
+    color: red;
+}
+.header{
+    color: hotpink !important;
+    
+}
+#header{
+    color: yellow;
+}
+
+*{
+
+}
+
+p{
+
+}
+
+.class{
+
+}
+#id{
+
+} */
+/* inline css 
+! important */
+
+/* ngoai ra de truy van cho thang con dung  p span:nth-child(so thu tu cua span) */
+body{
+    background-color: #79d6cc;
+}
+a{
+    text-decoration: none;
+    color: darkblue;
+
+}
+.menu{
+    display: flex;
+    /* background-color: turquoise; */
+    font-size: 25px;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbars ul {
+    display: flex;
+
+}
+
+.container{
+    max-width: 1270px;
+    width: 96%;
+    margin: 0 auto;
+}
+header{
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+.navbars ul li a{
+    text-transform: capitalize;
+    padding: 0 20px;
+    color: darkblue;
+    font-size: x-large;
+}
+.navbars ul li:hover{
+    
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    text-decoration: none;
+    height: 100%;
+    background-color: darkblue;
+    border-radius: 30px;
+}
+.navbars ul li a:hover{
+    color: white;
+}
+
+.logo a{
+    background-color: darkblue;
+    color: darkgoldenrod;
+    padding: 10px;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* ba thuoc tinh tren dung de can giua */
+}
+.logo a:hover{
+    color: white;
+}
